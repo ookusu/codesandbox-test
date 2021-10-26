@@ -140,3 +140,46 @@ const nameArry = ["田中", "山田", "大楠"];
 //   return num % 2 !== 0;
 // });
 // console.log(newNumArry);
+
+// const newNumArry = nameArry.map((name) => {
+//   if (name === "大楠") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNumArry);
+
+//三項演算子    ある条件 ? trueの時 : falseの時
+// const val1 = 1 > 0 ? `trueです` : `falseです`;
+// console.log(val1);
+
+// const num = 5089;
+// const formattedNum =
+//   typeof num === `number` ? num.toLocaleString() : `数値を入力してください。`;
+// console.log(formattedNum);
+
+// const checkSum = (m, n) => {
+//   return m + n > 100 ? `100を超えています。` : `許容範囲ないです。`;
+// };
+// console.log(checkSum(50, 50));
+
+//論理演算子の本当の意味を知る && ||
+// const i = true;
+// const j = false;
+// if(i && j ){
+//   console.log(`iもjもtrueです。`);
+// }
+// if(i || j ){
+//   console.log(`iかjはtrueです。`);
+// }
+
+//  || は左側がfalseなら右側を返す。
+// const num = null;
+// const fee = num || `金額未設定`;
+// console.log(fee);
+
+//  && は左側がtrueなら右側を返す。
+// const numm = 100;
+// const feee = numm && `何か設定されています。`;
+// console.log(feee);
